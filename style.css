@@ -1,30 +1,105 @@
-body{
-    width: 700px;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#manifesto{
-    background-color: rgb(0, 162, 255) ;
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.testo-azzurro{
+    color: #B1E5F2;
+}
+
+.testo-grigio{
+    color: rgb(148, 147, 147);
+}
+
+header{
+    background-color: #4FA0FF ;
     background-image: url(./immagini/pattern.png);
-    background-size: 310px;
-    width: 100%;
-    height: 80px;
-    display: inline-block;
+    background-size: 35%;
+    padding-left: 10%;
+    height: 120px;
 } 
 
 #logo{
-    margin-top: 40px;
-    width: 130px;
+    width: 230px;
+    padding-top: 60px;
+
 }
 
-#titolo{
-    margin: auto;
-    font-size: 30px;
-    
+h1{
+    font-size: 50px;
 }
 
-#descrizione{
-    font-size: small;
-    color: gray;
-    line-height: 0%;
+.info-articolo{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.data-articolo{
+    font-size: 12px;
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+.margini{
+    margin-top: 20px;
+}
+
+ul{
+    margin-left: 15px;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+table{
+    text-align: left;
+    padding-top: 20px;
+}
+
+table th{
+    padding: 0px 30px 0px 0px;
+    color: white;
+    background-color: #18a2fd;
+}
+
+table td{
+    padding: 10px 30px 10px 0px;
+}
+
+.colore-righe{
+    background-color: #B1E5F2;
+}
+
+aside div{
+    width: 220px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+aside h2{
+    color: rgb(148, 147, 147);
+    font-size: medium;
+    margin-top: 25px;
+}
+
+#monitor{
+    background-image: url(./immagini/monitor.jpg);
+}
+
+#graph{
+    background-image: url(./immagini/graph.jpg);
+}
+
+div h3{
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
